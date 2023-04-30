@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Developers" type="id" />
+    <item name="Developer_list" type="id" />
+    <item name="developers" type="id" />
+    <item name="developers_list" type="id" />
+    <item name="developers_listt" type="id" />
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#A009FE"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/download"
+        android:layout_marginBottom="40dp"
+        />
+
+    <TextView
+        android:id="@+id/user_details"
+        android:layout_width="wrap_content"
+        android:text="Welcome To our Doctor's Appointment System "
+        android:textColor="#DA3FD615"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor's List"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/developer_Btn"
+        android:text="Developer's"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About us"
+        android:id="@+id/about_us"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:text="@string/logout"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

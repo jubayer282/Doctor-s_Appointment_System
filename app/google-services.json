@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "512767837610",
+    "project_id": "doctor-s-appointment-sys-715d8",
+    "storage_bucket": "doctor-s-appointment-sys-715d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512767837610:android:144bea83be5261db7c97d3",
+        "android_client_info": {
+          "package_name": "com.jubayer.doctorsappointmentsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512767837610-m0202u5ml345mhmd3jp68ub4n3hte5t8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKinSNGfbGDaKgMQvhrs1APZw5uf4zs48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512767837610-m0202u5ml345mhmd3jp68ub4n3hte5t8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
