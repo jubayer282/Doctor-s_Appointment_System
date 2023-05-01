@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#C1FFFFFF"
+    android:orientation="vertical"
     tools:context=".DevelopersList">
 
     <ScrollView
@@ -158,6 +158,7 @@
                                 android:src="@drawable/ic_facebook" />
 
                             <TextView
+                                android:id="@+id/facebookTV"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="2dp"
@@ -182,6 +183,7 @@
                                 android:src="@drawable/ic_github" />
 
                             <TextView
+                                android:id="@+id/githubTV"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="2dp"
@@ -206,6 +208,7 @@
                                 android:src="@drawable/ic_linkedin" />
 
                             <TextView
+                                android:id="@+id/linkedinTV"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="2dp"
@@ -229,7 +232,6 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal">
 
-
                             <ImageView
                                 android:layout_width="18dp"
                                 android:layout_height="18dp"
@@ -238,6 +240,7 @@
                                 android:src="@drawable/gmail" />
 
                             <TextView
+                                android:id="@+id/mailTV"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="3dp"
@@ -272,7 +275,6 @@
                                 android:textColor="#F06A90B5" />
 
                         </LinearLayout>
-
 
 
                     </LinearLayout>
