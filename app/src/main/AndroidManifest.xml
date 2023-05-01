@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Material3.Dark"
         tools:targetApi="31">
         <activity
+            android:name=".DeveloperListActivity"
+            android:exported="false" />
+        <activity
             android:name=".DevelopersList"
             android:exported="false" />
         <activity

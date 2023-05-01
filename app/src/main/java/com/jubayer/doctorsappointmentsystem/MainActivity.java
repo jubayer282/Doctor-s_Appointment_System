@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         about_us = findViewById(R.id.about_us);
         textView = findViewById(R.id.user_details);
         user = auth.getCurrentUser();
+
         if (user == null){
             Intent intent = new Intent(getApplicationContext(), Login.class);
             startActivity(intent);
@@ -53,11 +54,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), About_Us.class));
             }
         });
+
         developer_Btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), DevelopersList.class) );
+                Intent intent = new Intent(MainActivity.this, DeveloperListActivity.class);
+                startActivity(intent);
             }
         });
+
+
     }
 }
