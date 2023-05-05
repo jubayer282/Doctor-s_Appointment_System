@@ -14,7 +14,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
     FirebaseAuth auth;
-    Button button, about_us, developer_Btn;
+    Button button, about_us, developer_Btn, doctor_list;
     TextView textView;
     FirebaseUser user;
 
@@ -28,7 +28,9 @@ public class MainActivity extends AppCompatActivity {
         button = findViewById(R.id.logout);
         developer_Btn = findViewById(R.id.developer_Btn);
         about_us = findViewById(R.id.about_us);
+        doctor_list = findViewById(R.id.doctor_list);
         textView = findViewById(R.id.user_details);
+
         user = auth.getCurrentUser();
 
         if (user == null){
@@ -63,6 +65,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        doctor_list.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, DoctorList.class);
+                startActivity(intent);
+            }
+        });
     }
 }
